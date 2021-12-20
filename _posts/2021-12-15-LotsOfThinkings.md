@@ -22,7 +22,7 @@ CVPR 2022 submission이 드디어 끝났다. 기말고사도 끝났다. 나는 �
 알파고 보다 더 뛰어난 성능을 보였던 **AlphaGo Zero** 는 기존 AlphaGo 모델 두 개가 처음 학습할 때부터 서로 대결하게 하여 서로를 강화시키는 모델이다. 이렇게 두 개의 넷트워크 를 서로 경쟁시켜 모델의 성능을 높이는 것은 딥러닝에 많이들 사용한다. 
  * 가장 대표적인게 역시 GAN 모델이다. Discriminator 와 Generator 두 네트워크가 서로가 서로를 속이도록 학습되었고, 기존 VAE 모델보다 훨씬 뛰어난 성능을 보였다. 
  * Adversarial Attack and Defense (PGD): 뉴럴 네트워크에 아주 적은, 사람 눈으로는 인지할 수 없는 noise를 넣어서 네트워크를 속이는 모델이다. 그런데 이런 공격 방법에 대한 방어를 할 때도 Sparring Parter 같은 개념을 쓴다. 특정 iteration을 반복해서 모델을 속일 수 있는 noise를 만들면, 그 noise가 씌인 이미지에 대해 올바른 label을 집어넣어 다시 네트워크가 제대로 학습할 수 있도록 하는 구조다. 
- * 
+ * 이렇게 Sparring Partnership 을 다른 딥러닝 분야에서 활용한다면 성능을 더 높일 수 있지 않을까?
 ---
 
 ### 2. Racist NN 
@@ -33,9 +33,9 @@ CVPR 2022 submission이 드디어 끝났다. 기말고사도 끝났다. 나는 �
 
 사람이 가진 데이터로 학습된 인공지능은 사회적 bias도 함께 답습할 수 밖에 없다는 것이다. 예를 들어서 CLIP 의 #1895 뉴런은 "Middle East" 와 "terrorism" 에 대해 동시에 반응했다. #1257 뉴런은 "Dark-skinned People" 과 "Gorillas" 에 대해 동시에 발현했고 #395 뉴런은 "immigration"과 "Latin America" 를 동시에 인식했다. 
 
-<img src="../assets/images/channel-1895.png" width="180">
-<img src="../assets/images/channel-1257.png" width="180">
-<img src="../assets/images/channel-395.png" width="180">
+<img src="https://allenedgarpoe.github.io/assets/images/channel-1895.png" width="180">
+<img src="https://allenedgarpoe.github.io/assets/images/channel-1257.png" width="180">
+<img src="https://allenedgarpoe.github.io/assets/images/channel-395.png" width="180">
       <br>*왼쪽부터 #1895, #1257, #395*
 <br>
 
