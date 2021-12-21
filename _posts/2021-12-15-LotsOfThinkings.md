@@ -3,10 +3,9 @@ title: "요즘 드는 정리되지 않은 생각들 마구잡이로 적기"
 excerpt: "Sparring Partner, Racist NN, Fashion AI"
 
 categories:
-   - Misc
+   - deep-learning
 tags:
-   - Blog
-last_modified_at: 2021-12-15
+   - VITON
 ---
 
 ## What Should I do?
