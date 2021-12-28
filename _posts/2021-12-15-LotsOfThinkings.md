@@ -5,7 +5,7 @@ excerpt: "Sparring Partner, Racist NN, Fashion AI"
 categories:
    - deep-learning
 tags:
-   - VITON
+   - VTON
 ---
 
 ## What Should I do?
